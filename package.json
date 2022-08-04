@@ -1,0 +1,22 @@
+{
+  "name": "nft-server-playground",
+  "version": "1.0.0",
+  "description": "Server set up to test NFT endpoints on Moralis server",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jennifer Echenim",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/spl-token": "^0.2.0",
+    "@solana/web3.js": "^1.44.0",
+    "axios": "^0.27.2",
+    "bip39": "^3.0.4",
+    "ed25519-hd-key": "^1.2.0",
+    "moralis": "^1.7.0",
+    "nodemon": "^2.0.16",
+    "tweetnacl": "^1.0.3"
+  }
+}
